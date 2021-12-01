@@ -1,0 +1,99 @@
+.button1{
+    background-color:yellow;
+    color:black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-size: 30px;
+  }
+  .button2{
+    background-color: yellow;
+    color:black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-size: 30px;
+  }
+  .button3{
+    background-color:yellow;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-size: 30px;
+  }
+.content1{
+    display: none;
+    font-size: 20px;
+}
+.content2{
+    display: none;
+    font-size: 20px;
+}
+.content3{
+    display: none;
+    font-size: 20px;
+}
+
+.button1:hover{
+    background-color: black;
+    color: yellow;
+}
+.button2:hover{
+    background-color: black;
+    color: yellow;
+   
+}
+.button3:hover{
+    background-color: black;
+    color: yellow;
+}
+.arrow1 {
+    transform: rotate(0deg);
+    transition: 0.6s;
+
+    &.active{
+        transform: rotate(180deg);
+        
+        
+    }
+    &.deactive1{
+        transform: rotate(0deg);
+    }
+}
+.arrow2 {
+    transform: rotate(0deg);
+    transition: 0.6s;
+
+    &.active{
+        transform: rotate(180deg);
+    }&.deactive{
+        transform: rotate(0deg);
+    }
+   
+    
+}
+ 
+.arrow3 {
+    transform: rotate(0deg);
+    transition: 0.6s;
+
+    &.active {
+        transform: rotate(180deg);
+        &.deactive{
+            transform: rotate(0deg);
+        }
+    }
+}
